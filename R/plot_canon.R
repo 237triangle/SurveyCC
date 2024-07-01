@@ -66,7 +66,8 @@ plot.surveycc <- function(x, dim1 = 1, dim2 = 2, ...) {
   )
   graphics::text(
     graphcoef[, dim1], graphcoef[, dim2],
-    labels = c(cc_object$names$X, cc_object$names$Y)
+    labels = c(cc_object$names$X, cc_object$names$Y),
+    cex = 0.5, offset = 0.5, pos = 3
   )
 
   stdV_dim1 <- stdV[, dim1]
