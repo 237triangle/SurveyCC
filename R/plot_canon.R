@@ -38,7 +38,7 @@ plot.surveycc <- function(x, dim1 = 1, dim2 = 2, ...) {
     "dim1 & 2 cannot exceed num canonical variates" = max(dim1, dim2) <= length(x$Stats.cancor),
     "dim1 and dim2 must be different" = dim1 != dim2
   )
-  
+  # comment
   s1 <- diag(sqrt(diag(stats::cov(cc_object$X))))
   mycoef1 <- s1 %*% cc_object$coef$X
   stdU <- cc_object$X %*% mycoef1
