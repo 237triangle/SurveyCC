@@ -1,6 +1,6 @@
 Package: SurveyCC
 Title: Canonical Correlation for Survey Data
-Version: 0.1.1
+Version: 0.2.1
 Authors@R: 
     person("Raul", "Cruz-Cano",, "raulcruz@iu.edu", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-7715-1198"))
